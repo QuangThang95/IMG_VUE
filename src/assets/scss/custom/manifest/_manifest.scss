@@ -1,0 +1,132 @@
+@import "../../base/variable";
+
+.unitQuantityClass {
+    width: 150px;
+}
+
+.wasteEmssion {
+    width: 150px;
+}
+
+.decisionCodeClass {
+    width: 200px;
+}
+
+.indexClass {
+    width: 50px;
+}
+
+.titleColumn {
+    background-color: #cacaca !important;
+}
+
+// Emssions follow card
+.emisionTable .card1 {
+    background-color: $color-background-industrial-waste;
+    color: black;
+}
+
+#card-Emission.card1 .card-header {
+    padding: 5px 0px 5px 2px;
+    background-color: $color-background-industrial-waste !important;
+    color: black !important;
+    border-color: #ccc !important;
+}
+
+#card-Emission.card1 {
+    border: none;
+}
+
+#card-Emission.card1 .card-body .emission thead th {
+    border-color: #ccc !important;
+    color: black;
+}
+
+// =======2========
+
+.emisionTable .card2 {
+    background-color: $color-background-special-industrial-waste;
+    color: black;
+}
+
+#card-Emission.card2 .card-header {
+    padding: 5px 0px 5px 2px;
+    background-color: $color-background-special-industrial-waste !important;
+    color: black !important;
+    border-color: #ccc !important;
+}
+
+#card-Emission.card2 {
+    border: none;
+}
+
+#card-Emission.card2 .card-body .emission thead th {
+    border-color: #ccc !important;
+    color: black;
+}
+
+// ==========3==========
+.emisionTable .card3 {
+    background-color: $color-background-construction-waste;
+    color: black;
+}
+
+#card-Emission.card3 .card-header {
+    padding: 5px 0px 5px 2px;
+    background-color: $color-background-construction-waste !important;
+    color: black !important;
+    border-color: #ccc !important;
+}
+
+#card-Emission.card3 {
+    border: none;
+}
+
+#card-Emission.card3 .card-body .emission thead th {
+    border-color: #ccc !important;
+    color: black;
+}
+
+// =======4============
+// .emisionTable .card4 {
+//     background-color: $color-background-valuable-waste;
+// }
+
+// #card-Emission.card4 .card-header {
+//     padding: 5px 0px 5px 2px;
+//     background-color: $color-background-valuable-waste !important;
+//     color: black !important;
+//     border-color: #ccc !important;
+// }
+
+// #card-Emission.card4 {
+//     border: none;
+// }
+
+// #card-Emission.card4 .card-body .emission thead th {
+//     border-color: #ccc !important;
+//     color: black;
+// }
+
+// // =========5========
+// .emisionTable .card5 {
+//     background-color: $color-background-municipal-waste;
+// }
+
+// #card-Emission.card5 .card-header {
+//     padding: 5px 0px 5px 2px;
+//     background-color: $color-background-municipal-waste !important;
+//     color: black !important;
+//     border-color: #ccc !important;
+// }
+
+// #card-Emission.card5 {
+//     border: none;
+// }
+
+// #card-Emission.card5 .card-body .emission thead th {
+//     border-color: #ccc !important;
+//     color: black;
+// }
+
+//end Emissions

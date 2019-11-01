@@ -1,0 +1,39 @@
+.table-popup {
+  border: 1px solid #ccc;
+  width: 100%;
+  margin: 15px 0;
+  tr {
+    border: 1px solid #ccc;
+  }
+  tr td {
+    border: 1px solid #ccc;
+  }
+  .table-label {
+    min-width: 90px;
+  }
+  .table-checkbox {
+    width: 35px;
+    min-width: 35px;
+  }
+  .table-column {
+    min-width: 125px;
+  }
+  .table-input {
+    min-width: 115px;
+  }
+  .row {
+    margin: 0px;
+    .col-3 {
+      padding: 0px;
+      text-align: center;
+      border: 1px solid #ccc;
+    }
+  }
+  input {
+    height: 24px;
+  }
+  select {
+    height: 24px;
+    padding: 0px 30px 0 0;
+  }
+}

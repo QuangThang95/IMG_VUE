@@ -1,0 +1,16 @@
+@import "../../base/variable";
+
+.stateTable .card1 {
+    background-color: $color-text-industrial-waste;
+    color: black;
+}
+
+.stateTable .card2 {
+    background-color: $color-text-special-industrial-waste;
+    color: black;
+}
+
+.stateTable .card3 {
+    background-color: $color-text-construction-waste;
+    color: black;
+}

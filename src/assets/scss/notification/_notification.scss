@@ -1,0 +1,175 @@
+@import "../base/variable";
+
+.btn-group {
+
+  .btn-industrial-waste {
+    background-color: $color-background-industrial-waste;
+    border-color: $color-background-industrial-waste;
+    font-weight: bold;
+    width: 250px;
+    color: $color-black;
+
+    &:hover {
+      background-color: $color-text-industrial-waste !important;
+      border-color: $color-text-industrial-waste !important;
+      color: $color-black;
+    }
+  }
+
+  .btn-industrial-waste.active {
+    background-color: $color-background-industrial-waste !important;
+    border-color: $color-background-industrial-waste !important;
+    color: $color-black !important;
+  }
+
+  .btn-special-industrial-waste {
+    background-color: $color-background-special-industrial-waste;
+    border-color: $color-background-special-industrial-waste;
+    color: $color-black;
+    font-weight: bold;
+    width: 250px;
+
+    &:hover {
+      background-color: $color-text-special-industrial-waste !important;
+      border-color: $color-text-special-industrial-waste !important;
+      color: $color-black;
+    }
+  }
+
+  .btn-special-industrial-waste.active {
+    background-color: $color-background-special-industrial-waste !important;
+    border-color: $color-background-special-industrial-waste !important;
+    color: $color-black !important;
+  }
+
+  .btn-construction-waste {
+    background-color: $color-background-construction-waste;
+    border-color: $color-background-construction-waste;
+    color: $color-black;
+    font-weight: bold;
+    width: 250px;
+
+    &:hover {
+      background-color: $color-text-construction-waste !important;
+      border-color: $color-text-construction-waste !important;
+      color: $color-black;
+    }
+  }
+
+  .btn-construction-waste.active {
+    background-color: $color-background-construction-waste !important;
+    border-color: $color-background-construction-waste !important;
+    color: $color-black !important;
+  }
+
+  .btn-valuable-waste {
+    background-color: $color-background-valuable-waste;
+    border-color: $color-background-valuable-waste;
+    color: $color-black;
+    font-weight: bold;
+    width: 250px;
+
+    &:hover {
+      background-color: $color-text-valuable-waste !important;
+      border-color: $color-text-valuable-waste !important;
+      color: $color-black;
+    }
+  }
+
+  .btn-valuable-waste.active {
+    background-color: $color-background-valuable-waste !important;
+    border-color: $color-background-valuable-waste !important;
+    color: $color-black !important;
+  }
+
+  .btn-municipal-waste {
+    background-color: $color-background-municipal-waste;
+    border-color: $color-background-municipal-waste;
+    color: $color-black;
+    font-weight: bold;
+    width: 250px;
+
+    &:hover {
+      background-color: $color-text-municipal-waste !important;
+      border-color: $color-text-municipal-waste !important;
+      color: $color-black;
+    }
+  }
+
+  .btn-municipal-waste.active {
+    background-color: $color-background-municipal-waste !important;
+    border-color: $color-background-municipal-waste !important;
+    color: $color-black !important;
+  }
+}
+
+.card0 {
+  border-color: $color-background-all;
+
+  .card-header {
+    background-color: $color-background-all;
+    border-color: $color-background-all;
+    color: $color-text-all;
+  }
+
+  .table thead th {
+    background-color: $color-black;
+    border-color: $color-table-background-all;
+    color: $color-black;
+  }
+}
+
+.card1 {
+  border-color: $color-background-industrial-waste;
+
+  .card-header,
+  .table thead th {
+    background-color: $color-background-industrial-waste;
+    border-color: $color-background-industrial-waste;
+    color: $color-text-industrial-waste;
+  }
+}
+
+.card2 {
+  border-color: $color-background-special-industrial-waste;
+
+  .card-header,
+  .table thead th {
+    background-color: $color-background-special-industrial-waste;
+    border-color: $color-background-special-industrial-waste;
+    color: $color-text-special-industrial-waste;
+  }
+}
+
+.card3 {
+  border-color: $color-background-construction-waste;
+
+  .card-header,
+  .table thead th {
+    background-color: $color-background-construction-waste;
+    border-color: $color-background-construction-waste;
+    color: $color-text-construction-waste;
+  }
+}
+
+.card4 {
+  border-color: $color-background-valuable-waste;
+
+  .card-header,
+  .table thead th {
+    background-color: $color-background-valuable-waste;
+    border-color: $color-background-valuable-waste;
+    color: $color-text-valuable-waste;
+  }
+}
+
+.card5 {
+  border-color: $color-background-municipal-waste;
+
+  .card-header,
+  .table thead th {
+    background-color: $color-background-municipal-waste;
+    border-color: $color-background-municipal-waste;
+    color: $color-text-municipal-waste;
+  }
+}

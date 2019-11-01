@@ -1,0 +1,360 @@
+
+import { Permissions } from '@/constants/Permissions';
+
+export const PermissionFull = [Permissions.Agent, Permissions.CustomerManager, Permissions.GroupManager,
+Permissions.BranchManager, Permissions.CustomerContractor, Permissions.GroupContractor, Permissions.BranchContractor,
+Permissions.CustomerViewer, Permissions.GroupViewer, Permissions.BranchViewer];
+
+export const MasterProperty = {
+  FSHI0001: {
+    SSHI0001: {
+      Path: '/customer',
+      Name: 'SSHI0001',
+      Role: ['1', '2', '3'],
+      Permission: [Permissions.Agent, Permissions.CustomerManager, Permissions.CustomerContractor],
+    },
+    SSHI0002: {
+      Path: '/customer/add',
+      Name: 'SSHI0002',
+      Role: ['1', '2'],
+      Permission: [Permissions.Agent],
+    },
+    SSHI0003: {
+      Path: '/customer/update/:customerCode',
+      Name: 'SSHI0003',
+      Role: ['1', '2'],
+      Permission: [Permissions.Agent, Permissions.CustomerManager],
+    },
+    SSHI0003Detail: {
+      Path: '/customer/detail/:customerCode',
+      Name: 'SSHI0003Detail',
+      Role: ['1', '2', '3'],
+      Permission: [Permissions.Agent, Permissions.CustomerManager, Permissions.CustomerContractor],
+    },
+  },
+  FSHI0002: {
+    SSHI0004: {
+      Path: '/customer-branch',
+      Name: 'SSHI0004',
+      Role: ['1', '2', '3'],
+      Permission: [Permissions.Agent, Permissions.CustomerManager, Permissions.GroupManager, Permissions.BranchManager,
+      Permissions.CustomerContractor, Permissions.GroupContractor, Permissions.BranchContractor],
+    },
+    SSHI0005: {
+      Path: '/customer-branch/add',
+      Name: 'SSHI0005',
+      Role: ['1', '2', '3'],
+      Permission: [Permissions.Agent, Permissions.CustomerManager, Permissions.GroupManager,
+      Permissions.CustomerContractor, Permissions.GroupContractor],
+    },
+    SSHI0006: {
+      Path: '/customer-branch/update/:branchCode',
+      Name: 'SSHI0006',
+      Role: ['1', '2', '3'],
+      Permission: [Permissions.Agent, Permissions.CustomerManager, Permissions.GroupManager, Permissions.BranchManager,
+      Permissions.CustomerContractor, Permissions.GroupContractor, Permissions.BranchContractor],
+    },
+  },
+  FSHI0003: {
+    SSHI0007: {
+      Path: '/customer-group',
+      Name: 'SSHI0007',
+      Role: ['1', '2', '3'],
+      Permission: [Permissions.Agent, Permissions.CustomerManager, Permissions.GroupManager,
+      Permissions.CustomerContractor, Permissions.GroupContractor],
+    },
+    SSHI0008: {
+      Path: '/customer-group/add',
+      Name: 'SSHI0008',
+      Role: ['1', '2', '3'],
+      Permission: [Permissions.Agent, Permissions.CustomerManager],
+    },
+    SSHI0009: {
+      Path: '/customer-group/update/:groupCode',
+      Name: 'SSHI0009',
+      Role: ['1', '2', '3'],
+      Permission: [Permissions.Agent, Permissions.CustomerManager, Permissions.GroupManager,
+      Permissions.CustomerContractor, Permissions.GroupContractor],
+    },
+  },
+  FSHI0004: {
+    SSHI0010: {
+      Path: '/supplier',
+      Name: 'SSHI0010',
+      Role: ['1', '2', '3'],
+      Permission: [Permissions.Agent, Permissions.CustomerManager, Permissions.GroupManager, Permissions.BranchManager,
+      Permissions.CustomerContractor, Permissions.GroupContractor, Permissions.BranchContractor],
+    },
+    SSHI0011: {
+      Path: '/supplier/add',
+      Name: 'SSHI0011',
+      Role: ['1', '2', '3'],
+      Permission: [Permissions.Agent, Permissions.CustomerManager, Permissions.GroupManager, Permissions.BranchManager],
+    },
+    SSHI0012: {
+      Path: '/supplier/update/:supplierCode',
+      Name: 'SSHI0012',
+      Role: ['1', '2', '3'],
+      Permission: [Permissions.Agent, Permissions.CustomerManager, Permissions.GroupManager, Permissions.BranchManager,
+      Permissions.CustomerContractor, Permissions.GroupContractor, Permissions.BranchContractor],
+    },
+    SSHI0012Detail: {
+      Path: '/supplier/detail/:supplierCode',
+      Name: 'SSHI0012Detail',
+      Role: ['1', '2', '3'],
+      Permission: [Permissions.Agent, Permissions.CustomerManager, Permissions.GroupManager, Permissions.BranchManager,
+      Permissions.CustomerContractor, Permissions.GroupContractor, Permissions.BranchContractor],
+    },
+  },
+  FSHI0005: {
+    SSHI0013: {
+      Path: '/supplier-handle',
+      Name: 'SSHI0013',
+      Role: ['1', '2', '3'],
+      Permission: [Permissions.Agent, Permissions.CustomerManager, Permissions.GroupManager, Permissions.BranchManager,
+      Permissions.CustomerContractor, Permissions.GroupContractor, Permissions.BranchContractor],
+    },
+    SSHI0014: {
+      Path: '/supplier-handle/add',
+      Name: 'SSHI0014',
+      Role: ['1', '2', '3'],
+      Permission: [Permissions.Agent, Permissions.CustomerManager, Permissions.GroupManager, Permissions.BranchManager,
+      Permissions.CustomerContractor, Permissions.GroupContractor, Permissions.BranchContractor],
+    },
+    SSHI0015: {
+      Path: '/supplier-handle/update/:supplierCode',
+      Name: 'SSHI0015',
+      Role: ['1', '2', '3'],
+      Permission: [Permissions.Agent, Permissions.CustomerManager, Permissions.GroupManager, Permissions.BranchManager,
+      Permissions.CustomerContractor, Permissions.GroupContractor, Permissions.BranchContractor],
+    },
+  },
+  FSHI0006: {
+    SSHI0016: {
+      Path: '/factory',
+      Name: 'SSHI0016',
+      Role: ['1', '2', '3'],
+      Permission: [Permissions.Agent, Permissions.CustomerManager, Permissions.GroupManager, Permissions.BranchManager,
+      Permissions.CustomerContractor, Permissions.GroupContractor, Permissions.BranchContractor],
+    },
+    SSHI0017: {
+      Path: '/factory/add',
+      Name: 'SSHI0017',
+      Role: ['1', '2', '3'],
+      Permission: [Permissions.Agent, Permissions.CustomerManager, Permissions.GroupManager, Permissions.BranchManager],
+    },
+    SSHI0018: {
+      Path: '/factory/update/:factoryCode/supplierCode/:supplierCode',
+      Name: 'SSHI0018',
+      Role: ['1', '2', '3'],
+      Permission: PermissionFull,
+    },
+  },
+  FSHI0007: {
+    SSHI0019: {
+      Path: '/user',
+      Name: 'SSHI0019',
+      Role: ['1', '2', '3'],
+      Permission: [Permissions.Agent, Permissions.CustomerManager, Permissions.GroupManager, Permissions.BranchManager,
+      Permissions.CustomerContractor, Permissions.GroupContractor, Permissions.BranchContractor],
+    },
+    SSHI0020: {
+      Path: '/user/add',
+      Name: 'SSHI0020',
+      Role: ['1', '2', '3'],
+      Permission: [Permissions.Agent, Permissions.CustomerManager, Permissions.GroupManager, Permissions.BranchManager],
+    },
+    SSHI0021: {
+      Path: '/user/update/:userCode/roleCode/:roleCode',
+      Name: 'SSHI0021',
+      Role: ['1', '2', '3'],
+      Permission: [Permissions.Agent, Permissions.CustomerManager, Permissions.GroupManager, Permissions.BranchManager,
+      Permissions.CustomerContractor, Permissions.GroupContractor, Permissions.BranchContractor],
+    },
+  },
+  FSHI0008: {
+    SSHI0022: {
+      Path: '/general',
+      Name: 'SSHI0022',
+      Role: ['1', '2', '3'],
+      Permission: [Permissions.Agent],
+    },
+    SSHI0023: {
+      Path: '/general/add/:key1',
+      Name: 'SSHI0023',
+      Role: ['1', '2', '3'],
+      Permission: [Permissions.Agent],
+    },
+    SSHI0024: {
+      Path: '/general/update/:recordId/key1/:key1',
+      Name: 'SSHI0024',
+      Role: ['1', '2', '3'],
+      Permission: [Permissions.Agent],
+    },
+  },
+  FSHI0009: {
+    SSHI0025: {
+      Path: '/customer-selection',
+      Name: 'SSHI0025',
+      Role: ['1', '2', '3'],
+      Permission: [Permissions.Agent],
+    },
+  },
+  FSHI0014: {
+    SSHI0036: {
+      Path: '/report',
+      Name: 'SSHI0036',
+      Role: ['1', '2', '3'],
+      Permission: [Permissions.Agent, Permissions.CustomerManager, Permissions.GroupManager, Permissions.BranchManager,
+      Permissions.CustomerContractor, Permissions.GroupContractor, Permissions.BranchContractor],
+    },
+  },
+  FSHI0015: {
+    SSHI0037: {
+      Path: '/login',
+      Name: 'SSHI0037',
+      Title: 'ログイン',
+    },
+    SSHI0038: {
+      Path: '/home',
+      Name: 'SSHI0038',
+      Role: ['1', '2', '3'],
+      Permission: PermissionFull,
+    },
+  },
+  FSHI0011: {
+    SSHI0031: {
+      Path: '/manifest',
+      Name: 'manifest',
+      Role: ['1', '2'],
+      Permission: [Permissions.Agent, Permissions.CustomerManager, Permissions.GroupManager, Permissions.BranchManager,
+      Permissions.CustomerContractor, Permissions.GroupContractor, Permissions.BranchContractor,
+      Permissions.CustomerViewer, Permissions.GroupViewer, Permissions.BranchViewer],
+    },
+    SSHI0032: {
+      Path: '/manifest/add',
+      Name: 'SSHI0032',
+      Role: ['1', '2'],
+      Permission: [Permissions.Agent, Permissions.CustomerManager, Permissions.GroupManager, Permissions.BranchManager,
+      Permissions.CustomerContractor, Permissions.GroupContractor, Permissions.BranchContractor,
+      Permissions.CustomerViewer, Permissions.GroupViewer, Permissions.BranchViewer],
+    },
+    SSHI0033: {
+      Path: '/manifest/update/:manifestNumber',
+      Name: 'SSHI0033',
+      Role: ['1', '2'],
+      Permission: [Permissions.Agent, Permissions.CustomerManager, Permissions.GroupManager, Permissions.BranchManager,
+      Permissions.CustomerContractor, Permissions.GroupContractor, Permissions.BranchContractor,
+      Permissions.CustomerViewer, Permissions.GroupViewer, Permissions.BranchViewer],
+    },
+    SSHI0034: {
+      Path: '/emisstions/detail',
+      Name: 'SSHI0034',
+      Role: ['1', '2'],
+      Permission: [Permissions.Agent],
+    },
+    SSHI0031Change: {
+      Path: '/emissions-list',
+      Name: 'SSHI0031Change',
+      Role: ['1', '2', '3'],
+      Permission: [Permissions.Agent],
+    },
+  },
+  FSHI0010: {
+    SSHI0026: {
+      Path: '/contract',
+      Name: 'SSHI0026',
+      Role: ['1', '2', '3'],
+      Permission: PermissionFull,
+    },
+    SSHI0027: {
+      Path: '/contract/add/wasteClass/:wasteClass',
+      Name: 'SSHI0027',
+      Role: ['1', '2', '3'],
+      Permission: [Permissions.Agent, Permissions.CustomerManager, Permissions.GroupManager, Permissions.BranchManager,
+      Permissions.CustomerContractor, Permissions.GroupContractor, Permissions.BranchContractor],
+    },
+    SSHI0028: {
+      Path: '/contract/update/:contractCode/branchCode/:branchCode/wasteClass/:wasteClass',
+      Name: 'SSHI0028',
+      Role: ['1', '2', '3'],
+      Permission: PermissionFull,
+    },
+    SSHI0028Detail: {
+      Path: '/contract/detail/:contractCode/branchCode/:branchCode/wasteClass/:wasteClass',
+      Name: 'SSHI0028Detail',
+      Role: ['1', '2', '3'],
+      Permission: PermissionFull,
+    },
+    SSHI0029Add: {
+      Path: '/contract/:contractCode/branchCode/:branchCode/wasteClass/:wasteClass/contract-part/add',
+      Name: 'SSHI0029Add',
+      Role: ['1', '2', '3'],
+      Permission: PermissionFull,
+    },
+    SSHI0029Update: {
+      Path: `/contract/:contractCode/branchCode/:branchCode/wasteClass/:wasteClass/sectionNumber/:sectionNumber/contract-part/update`,
+      Name: 'SSHI0029Update',
+      Role: ['1', '2', '3'],
+      Permission: PermissionFull,
+    },
+    SSHI0029Detail: {
+      Path: `/contract/:contractCode/branchCode/:branchCode/wasteClass/:wasteClass/sectionNumber/:sectionNumber/contract-part/detail`,
+      Name: 'SSHI0029Detail',
+      Role: ['1', '2', '3'],
+      Permission: PermissionFull,
+    },
+  },
+  FSHI0012: {
+    SSHI0035Request: {
+      Path: '/notification-request/:wasteClassUrl',
+      PathForMenu: '/notification-request/1',
+      Name: 'Notification-Request',
+      Role: ['1', '2', '3'],
+      Permission: [Permissions.Agent, Permissions.CustomerManager, Permissions.GroupManager, Permissions.BranchManager,
+      Permissions.CustomerContractor, Permissions.GroupContractor, Permissions.BranchContractor],
+    },
+    SSHI0035Important: {
+      Path: '/notification-important/:wasteClassUrl',
+      PathForMenu: '/notification-important/1',
+      Name: 'Notification-Important',
+      Role: ['1', '2', '3'],
+      Permission: [Permissions.Agent, Permissions.CustomerManager, Permissions.GroupManager, Permissions.BranchManager,
+      Permissions.CustomerContractor, Permissions.GroupContractor, Permissions.BranchContractor],
+    },
+    SSHI0035Error: {
+      Path: '/error/:notifySourceUrl/:supplierClassUrl',
+      PathForMenu: '/error/4/0',
+      Name: 'Notification-Error',
+      Role: ['1', '2', '3'],
+      Permission: [Permissions.Agent, Permissions.CustomerManager, Permissions.GroupManager, Permissions.BranchManager,
+      Permissions.CustomerContractor, Permissions.GroupContractor, Permissions.BranchContractor],
+    },
+    SSHI0035Report: {
+      Path: '/notification-report/:wasteClassUrl',
+      PathForMenu: '/notification-report/1',
+      Name: 'Notification-Report',
+      Role: ['1', '2', '3'],
+      Permission: [Permissions.Agent, Permissions.CustomerManager, Permissions.GroupManager, Permissions.BranchManager,
+      Permissions.CustomerContractor, Permissions.GroupContractor, Permissions.BranchContractor],
+    },
+    SSHI0035Other: {
+      Path: '/notification-others/:wasteClassUrl',
+      PathForMenu: '/notification-others/1',
+      Name: 'Notification-Others',
+      Role: ['1', '2', '3'],
+      Permission: [Permissions.Agent, Permissions.CustomerManager, Permissions.GroupManager, Permissions.BranchManager,
+      Permissions.CustomerContractor, Permissions.GroupContractor, Permissions.BranchContractor],
+    },
+  },
+  ERROR: {
+    ERROR403: {
+      Path: '/403error',
+      Name: 'ERROR403',
+    },
+    ERROR404: {
+      Path: '**',
+      Name: 'ERROR404',
+    },
+  },
+};

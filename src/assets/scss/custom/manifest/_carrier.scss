@@ -1,0 +1,16 @@
+@import "../../base/variable";
+
+.carrierTable .card1 {
+    background-color: $color-text-industrial-waste;
+    color: black;
+}
+
+.carrierTable .card2 {
+    background-color: $color-text-special-industrial-waste;
+    color: black;
+}
+
+.carrierTable .card3 {
+    background-color: $color-text-construction-waste;
+    color: black;
+}

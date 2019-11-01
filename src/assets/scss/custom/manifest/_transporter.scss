@@ -1,0 +1,115 @@
+@import "../../base/variable";
+
+.staffClass {
+    width: 250px;
+}
+
+.optionStaff .selection .select2-selection {
+    height: 38px;
+    border: 1px solid #ccc;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: black transparent transparent transparent;
+    border-style: solid;
+    border-width: 5px 4px 0 4px;
+    height: 0;
+    left: 50%;
+    margin-left: -4px;
+    margin-top: -2px;
+    position: absolute;
+    top: 70%;
+    width: 0;
+}
+
+.titleColumn {
+    background-color: #cacaca !important;
+}
+
+// ============ follow Card
+
+#card-header-trans.card1 .card-header {
+    padding: 5px 0px 5px 2px;
+    background-color: $color-background-industrial-waste !important;
+    color: black !important;
+    border-color: #ccc !important;
+}
+
+#card-header-trans.card1 {
+    border: none;
+}
+
+#card-header-trans.card1 .card-body .tranportation thead th {
+    border-color: #ccc !important;
+    color: black;
+}
+
+// ==========2========
+
+#card-header-trans.card2 .card-header {
+    padding: 5px 0px 5px 2px;
+    background-color: $color-background-special-industrial-waste !important;
+    color: black !important;
+    border-color: #ccc !important;
+}
+
+#card-header-trans.card2 {
+    border: none;
+}
+
+#card-header-trans.card2 .card-body .tranportation thead th {
+    border-color: #ccc !important;
+    color: black;
+}
+
+// ==========3========
+
+#card-header-trans.card3 .card-header {
+    padding: 5px 0px 5px 2px;
+    background-color: $color-background-construction-waste !important;
+    color: black !important;
+    border-color: #ccc !important;
+}
+
+#card-header-trans.card3 {
+    border: none;
+}
+
+#card-header-trans.card3 .card-body .tranportation thead th {
+    border-color: #ccc !important;
+    color: black;
+}
+
+// =====4=======
+#card-header-trans.card4 .card-header {
+    padding: 5px 0px 5px 2px;
+    background-color: $color-background-valuable-waste !important;
+    color: black !important;
+    border-color: #ccc !important;
+}
+
+#card-header-trans.card4 {
+    border: none;
+}
+
+#card-header-trans.card4 .card-body .tranportation thead th {
+    border-color: #ccc !important;
+    color: black;
+}
+
+// ===============5
+#card-header-trans.card5 .card-header {
+    padding: 5px 0px 5px 2px;
+    background-color: $color-background-municipal-waste !important;
+    color: black !important;
+    border-color: #ccc !important;
+}
+
+#card-header-trans.card5 {
+    border: none;
+}
+
+#card-header-trans.card5 .card-body .tranportation thead th {
+    border-color: #ccc !important;
+    color: black !important;
+}

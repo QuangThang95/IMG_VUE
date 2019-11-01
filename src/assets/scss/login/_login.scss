@@ -1,0 +1,31 @@
+  @import "../base/variable";
+
+  form {
+      width: 400px;
+      float: right;
+  }
+
+  .btn {
+      border: none;
+      background: $color-btn;
+      cursor: pointer;
+      float: right;
+      font-weight: bold;
+  }
+
+  .input {
+      margin: 20px;
+  }
+
+  .card {
+      width: 650px;
+      margin-top: 10%;
+  }
+
+  .card-header {
+      font-weight: bold;
+  }
+
+  .custom-checkbox {
+      padding: 0px;
+  }

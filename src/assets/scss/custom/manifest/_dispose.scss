@@ -1,0 +1,17 @@
+@import "../../base/variable";
+
+.disposalTable .card1 {
+    background-color: $color-background-industrial-waste;
+    color: black;
+}
+
+
+.disposalTable .card2 {
+    background-color: $color-background-special-industrial-waste;
+    color: black;
+}
+
+.disposalTable .card3 {
+    background-color:  $color-background-construction-waste;
+    color: black;
+}

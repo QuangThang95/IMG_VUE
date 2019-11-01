@@ -1,0 +1,56 @@
+@import "../../base/variable";
+
+.titleColumn {
+    background-color: #cacaca !important;
+}
+
+#card-header-disposeEnd.card1 .card-header {
+    padding: 5px 0px 5px 2px;
+    background-color: $color-background-industrial-waste !important;
+    color: black !important;
+    border-color: #ccc !important;
+}
+
+#card-header-disposeEnd.card1 {
+    border: none;
+}
+
+#card-header-disposeEnd.card1 .card-body .disposalEnd thead th {
+    border-color: #ccc !important;
+    color: black;
+}
+
+// =========2
+#card-header-disposeEnd.card2 .card-header {
+    padding: 5px 0px 5px 2px;
+    background-color: $color-background-special-industrial-waste !important;
+    color: black !important;
+    border-color: #ccc !important;
+}
+
+#card-header-disposeEnd.card2 {
+    border: none;
+}
+
+#card-header-disposeEnd.card2 .card-body .disposalEnd thead th {
+    border-color: #ccc !important;
+    color: black;
+}
+
+// =========3
+
+#card-header-disposeEnd.card3 .card-header {
+    padding: 5px 0px 5px 2px;
+    background-color: $color-background-construction-waste !important;
+    color: black !important;
+    border-color: #ccc !important;
+}
+
+#card-header-disposeEnd.card3 {
+    border: none;
+}
+
+#card-header-disposeEnd.card3 .card-body .disposalEnd thead th {
+    border-color: #ccc !important;
+    color: black;
+}

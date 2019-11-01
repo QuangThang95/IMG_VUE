@@ -1,0 +1,16 @@
+@import "../../base/variable";
+
+.deadlineTable .card1 {
+    background-color: $color-text-industrial-waste;
+    color: black;
+}
+
+.deadlineTable .card2 {
+    background-color: $color-text-special-industrial-waste;
+    color: black;
+}
+
+.deadlineTable .card3 {
+    background-color: $color-text-construction-waste;
+    color: black;
+}

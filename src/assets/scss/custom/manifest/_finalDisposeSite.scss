@@ -1,0 +1,36 @@
+@import "../../base/variable";
+
+.class1 {
+    width: 50px;
+}
+
+.class2 {
+    width: 150px;
+}
+
+.class4 {
+    width: 150px;
+}
+
+.class6 {
+    width: 200px;
+}
+
+.classRight {
+    border-right: 0.5px solid white
+}
+
+.finalTable .card1 {
+    background-color: $color-text-industrial-waste;
+    color: black;
+}
+
+.finalTable .card2 {
+    background-color: $color-text-special-industrial-waste;
+    color: black;
+}
+
+.finalTable .card3 {
+    background-color: $color-text-construction-waste;
+    color: black;
+}

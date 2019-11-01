@@ -1,0 +1,165 @@
+#home-screen {
+    .card-item {
+        min-height: 450px;
+        font-weight: bold;
+
+        img {
+            width: 150px;
+            height: 150px;
+        }
+
+        .img-btn {
+            padding: 0;
+            border: 0;
+        }
+    }
+
+    .button-card {
+        width: 100px;
+        font-weight: bold;
+        background-color: #f2f0ff;
+        border-color: #f2f0ff;
+        color: black;
+    }
+
+    .badge-card {
+        width: 40px;
+    }
+
+    .card0 {
+        border-color: transparent;
+
+        .card-header {
+            background-color: #6C757D;
+            border-color: transparent;
+            color: white;
+        }
+    }
+
+    .card1 {
+        border-color: #99ff99;
+
+        .card-header {
+            background-color: #99ff99;
+            border-color: #99ff99;
+            color: #269b26;
+        }
+    }
+
+    .card2 {
+        border-color: #FF6666;
+
+        .card-header {
+            background-color: #FF6666;
+            border-color: #FF6666;
+            color: #510606;
+        }
+    }
+
+    .card3 {
+        border-color: #CCCCFF;
+
+        .card-header {
+            background-color: #CCCCFF;
+            border-color: #CCCCFF;
+            color: #1313B2;
+        }
+    }
+
+    .card4 {
+        border-color: #FFCC99;
+
+        .card-header {
+            background-color: #FFCC99;
+            border-color: #FFCC99;
+            color: #90551A;
+        }
+    }
+
+    .card5 {
+        border-color: #CCFFFF;
+
+        .card-header {
+            background-color: #CCFFFF;
+            border-color: #CCFFFF;
+            color: #1EB9B9;
+        }
+    }
+
+    .hidden .card-body {
+        padding: 0px;
+    }
+
+    fieldset {
+        min-width: initial;
+        padding: 10px;
+        border: 1px solid #ccc;
+    }
+
+    legend {
+        width: initial;
+        width: auto;
+    }
+
+    .row-item {
+        min-height: 200px;
+        position: relative;
+        border: 1px solid #ccc
+    }
+
+    .footer-item {
+        position: absolute;
+        height: 40px;
+        width: 100%;
+        bottom: 4px;
+        padding-left: 32px;
+    }
+
+    .footer-item span {
+        align-items: center;
+    }
+
+    .legend-text {
+        margin-left: 30px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .btn-content {
+        width: 250px;
+        padding: 8px 0px;
+        background-color: #ccc;
+        border: #ccc;
+        color: black;
+        font-weight: bold
+    }
+
+    .footer-button {
+        font-weight: bold
+    }
+
+    .card-widget {
+        .card-header {
+            background-color: #ccc;
+        }
+
+        .btn-setting:hover {
+            cursor: pointer;
+        }
+    }
+
+    .btn-group {
+        width: 150px;
+
+        .button-card {
+            flex: inherit;
+        }
+
+        .badge {
+            height: 18px;
+            position: absolute;
+            right: 0px;
+            top: 6px;
+        }
+    }
+}

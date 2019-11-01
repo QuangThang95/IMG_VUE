@@ -1,0 +1,287 @@
+#app {
+  padding: 7px;
+  height: 100%;
+}
+
+body {
+  height: 100vh;
+}
+
+/* modal */
+.outside-to-close .modal-backdrop.show {
+  pointer-events: none !important;
+}
+
+.stDlKeyword .md-dialog {
+  min-width: 550px !important;
+  max-width: 850px !important;
+}
+
+/* modal */
+
+/* processing */
+#spinner-processing {
+  width: 3rem;
+  height: 3rem;
+}
+
+/* processing */
+
+/* 404 error */
+#404-error .error-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.page-wrap {
+  min-height: 90vh;
+}
+
+#404-error .justify-content-center {
+  justify-content: center !important;
+}
+
+/* 404 error */
+
+.card-header {
+  background-color: $color-card-header;
+  height: $height-card-header;
+  display: flex;
+  align-items: center;
+
+  div:first-child {
+    width: 100%;
+  }
+}
+
+.card .card-body {
+  padding-bottom: 0.25rem;
+}
+
+.btn-form {
+  background-color: $color-btn !important;
+  border: none;
+  font-weight: bold;
+}
+
+.classButton {
+  width: $width-135;
+  text-align: center;
+}
+
+.classThreeButton {
+  width: 180px;
+  text-align: center;
+}
+
+.classOneButton {
+  width: 100px;
+  text-align: center;
+}
+
+.fontColor {
+  font-weight: bold;
+}
+
+.titlePage {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.titleForm {
+  color: $color-brown;
+}
+
+.asterisk {
+  color: $color-red;
+  font-weight: bold;
+}
+
+.btn-arrow-left {
+  margin-right: 4px;
+}
+
+.btn-arrow-right {
+  margin-left: 4px;
+}
+
+form {
+  fieldset {
+    border: none;
+  }
+}
+
+.input-width {
+  max-width: 200px;
+}
+
+.border-none {
+  border: none !important;
+}
+
+.form-control-lg {
+  font-size: 0.875rem;
+}
+
+.grid-screen {
+  margin-bottom: 25px;
+}
+
+input[type=image]:disabled {
+  opacity: 0.5;
+}
+
+.modal .modal-huge {
+  max-width: 1700px;
+}
+
+.upload-file:hover {
+  cursor: pointer;
+}
+
+.label-margin {
+  margin-bottom: 0px;
+}
+
+.modal-dialog {
+  .base-select-popup {
+    padding: 0 1em;
+  }
+
+  .base-select-search-popup {
+    margin-bottom: 0.5rem;
+  }
+}
+
+label[disabled='disabled'] {
+  pointer-events: none;
+  opacity: 0.65;
+}
+
+.sshi0029 {
+  th {
+    background-color: #f2dede;
+  }
+
+  .table-detail .basic-information table td {
+    table-layout: fixed;
+    width: 200px;
+  }
+
+  .dropdown-inline {
+    width: 25%;
+    float: left;
+  }
+
+  .checkbox-inline {
+    width: 25%;
+    float: left;
+    margin-left: 20px;
+  }
+
+  .label-form {
+    margin-right: 140px;
+  }
+
+  .label-title {
+    margin-right: 122px;
+  }
+
+  .width-column {
+    width: 150px !important;
+  }
+
+  .width-column-2 {
+    width: 200px;
+  }
+
+  .width-date-column {
+    max-width: 150px;
+  }
+}
+
+.btn-copy {
+  background-color: $color-button-copy !important;
+  margin-right: 70px;
+  border: none;
+  font-weight: bold;
+}
+
+.font-normal {
+  font-weight: normal;
+}
+
+// css hide button file 
+.custom-file.hide-status {
+  display: none;
+}
+
+.classButton,
+.classOneButton,
+.classThreeButton {
+  .custom-file {
+    display: none;
+  }
+}
+
+.th-width {
+  width: 110px;
+}
+
+.display-flex {
+  display: -webkit-flex;
+  /* Safari */
+  display: flex;
+}
+
+.popup-height {
+  height: 800px;
+}
+
+.container-fluid .table .input-group.input-group-sm,
+.container-fluid .table .form-checkbox {
+  color: $color-black;
+}
+
+.headTable {
+  color: $color-black;
+
+  .card1 {
+    background-color: $color-background-industrial-waste;
+  }
+
+  .card2 {
+    background-color: $color-background-special-industrial-waste;
+  }
+
+  .card3 {
+    background-color: $color-background-construction-waste;
+  }
+
+  .card4 {
+    background-color: $color-background-valuable-waste;
+  }
+
+  .card5 {
+    background-color: $color-background-municipal-waste;
+  }
+}
+
+.b-table-sticky-header {
+  th:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 2px;
+    width: 100%;
+    border: 1px solid #dee2e6;
+    z-index: -1;
+  }
+}
+
+.b-table-sticky-header>.table.b-table>thead>tr>th {
+  right: 1px;
+}

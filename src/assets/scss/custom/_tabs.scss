@@ -1,0 +1,15 @@
+.card {
+    margin-bottom: 0.5rem;
+}
+
+.tabs {
+    .nav-tabs {
+        .nav-link {
+            font-weight: bold;
+        }
+
+        .nav-link.active {
+            color: $color-black;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+@import "../../base/variable";
+
+.remarkTable .card1 {
+    background-color: $color-background-industrial-waste;
+    color: black;
+}
+
+.remarkTable .card2 {
+    background-color: $color-background-special-industrial-waste;
+    color: black;
+}
+
+.remarkTable .card3 {
+    background-color:  $color-background-construction-waste;
+    color: black;
+}
+
+.remarkTable .card4 {
+    background-color:  $color-background-valuable-waste;
+    color: black;
+}
+
+.remarkTable .card5 {
+    background-color: $color-background-municipal-waste;
+    color: black;
+}

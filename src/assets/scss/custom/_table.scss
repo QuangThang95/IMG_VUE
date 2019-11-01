@@ -1,0 +1,182 @@
+.table {
+  .box {
+    border-left: 0.5px solid #ccc;
+    border-right: 0.5px solid #ccc;
+    border-top: 0.5px solid #ccc;
+  }
+
+  .footer {
+    border-bottom: 1px solid #ccc;
+  }
+
+  tr {
+    th {
+      em {
+        .btn-sort {
+          border: none;
+          background: white;
+        }
+
+        button:focus {
+          outline: none;
+        }
+      }
+    }
+
+    td {
+      .checkbox.custom-checkbox {
+        padding-top: 4px;
+      }
+    }
+  }
+}
+
+.table-box {
+  tr {
+    th {
+      border: 0.5px solid #ccc;
+    }
+
+    th.border-right-none {
+      border-right: none;
+    }
+
+    th.border-left-none {
+      border-left: none;
+    }
+
+    th.background-white {
+      background: white;
+    }
+
+    td {
+      border-right: 1px solid #ccc;
+    }
+
+    td.titleColumn {
+      padding-top: 8px;
+    }
+
+    td.titleColumn-textarea {
+      vertical-align: middle;
+    }
+
+    td:first-child {
+      border-left: 1px solid #ccc;
+    }
+
+    td.border-right-none {
+      border-right: none;
+    }
+
+    td.border-left-none {
+      border-left: none;
+    }
+  }
+}
+
+.table-box tr:first-child td:first-child {
+  border-top: none;
+  border-left: none;
+}
+
+.table-box tr:last-child td {
+  border-bottom: 1px solid #ccc;
+}
+
+.titleColumn {
+  background-color: #cacaca !important;
+  font-weight: bold;
+}
+
+.hidenColunm {
+  display: none;
+}
+
+#table-contract {
+  table-layout: fixed;
+  width: 100%;
+
+  td,
+  th {
+    vertical-align: top;
+    border-top: 1px solid #ccc;
+    padding: 8px;
+    width: 250px;
+  }
+
+  tr th:nth-child(1),
+  tr td:nth-child(1) {
+    position: absolute;
+    *position: relative;
+    /*ie7*/
+    left: 0;
+    width: 150px;
+  }
+
+  tr th:nth-child(2),
+  tr td:nth-child(2) {
+    position: absolute;
+    *position: relative;
+    /*ie7*/
+    left: 150px;
+    width: 200px;
+  }
+
+  tr th:nth-child(3),
+  tr td:nth-child(3) {
+    position: absolute;
+    *position: relative;
+    /*ie7*/
+    left: 350px;
+    width: 200px;
+  }
+
+  tr th:nth-last-child(1),
+  tr td:nth-last-child(1) {
+    position: absolute;
+    *position: relative;
+    /*ie7*/
+    right: 0px;
+    width: 100px;
+  }
+}
+
+.b-table-sticky-header {
+  max-height: 500px;
+}
+
+#sshi0006-tab2-table {
+  .data3, .wasteCode, .memo, .lastUpdate {
+    min-width: 120px;
+  }
+}
+
+#table-manifest {
+  .branchName {
+    min-width: 115px;
+  }
+  .manifestNumber {
+    min-width: 175px;
+  }
+  .manifestStatus, 
+  .finalDisposeReportLimit,
+  .transportReportFlag,
+  .disposeReportFlag,
+  .finalDisposeReportFlag,
+  .unitQuantity {
+    min-width: 80px;
+  }
+  .contactNumber1, 
+  .contactNumber2,
+  .contactNumber3,
+  .deliveryDate {
+    min-width: 120px;
+  }
+  .transporterName, 
+  .disposerName,
+  .data1 {
+    min-width: 145px;
+  }
+
+}
